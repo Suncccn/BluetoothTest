@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int REQUEST_ENABLE_CODE = 0x001;
     public static final int REQUEST_DISCOVERABLE_CODE = 0x002;
     private BluetoothAdapter defaultAdapter;
+    private int test = 0;
 
     //监听蓝牙状态，分为 当前状态和之前状态
     BroadcastReceiver receiver = new BroadcastReceiver() {
